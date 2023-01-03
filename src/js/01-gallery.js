@@ -3,6 +3,7 @@
 import SimpleLightbox from 'simplelightbox';
 import { galleryItems } from './gallery-items.js';
 import '~node_modules/simplelightbox/dist/simple-lightbox.min.css';
+
 console.log(galleryItems);
 const refs = {
   galleryContainer: document.querySelector('.gallery'),
